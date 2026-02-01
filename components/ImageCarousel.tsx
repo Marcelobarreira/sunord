@@ -6,9 +6,11 @@ import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const carouselImages = [
+  { src: '/images/foto1.png', alt: 'SUNORD Engenharia' },
+  { src: '/images/foto2.png', alt: 'Projetos e Construções' },
+  { src: '/images/foto3.png', alt: 'Engenharia Civil' },
   { src: '/images/obra-01.jpg', alt: 'Obras de Engenharia' },
   { src: '/images/obra-02.jpg', alt: 'Galpão MRO Logistics' },
-  { src: '/images/obra-03.jpg', alt: 'Edificações' },
   { src: '/images/obra-05.jpg', alt: 'Infraestrutura' },
   { src: '/images/obra-07.jpg', alt: 'Projetos e Construções' },
 ]
@@ -87,7 +89,8 @@ export function ImageCarousel() {
             src={carouselImages[imageIndex].src}
             alt={carouselImages[imageIndex].alt}
             fill
-            className="object-cover object-center"
+            className="object-cover"
+            style={{ objectPosition: 'center 30%' }}
             priority
           />
           {/* Gradient overlay - tons de verde/teal */}

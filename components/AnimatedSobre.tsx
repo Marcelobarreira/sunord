@@ -107,7 +107,7 @@ export function AnimatedSobre() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-teal/20 z-10" />
                 <HoverScale scale={1.03}>
                   <Image
-                    src="/images/edificacoes.jpg"
+                    src="/images/obra-03.jpg"
                     alt="SUNORD Engenharia Obras"
                     width={600}
                     height={400}

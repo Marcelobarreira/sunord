@@ -6,11 +6,11 @@ import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const carouselImages = [
-  { src: '/images/edificacoes.jpg', alt: 'Edificações' },
-  { src: '/images/infraestrutura.jpg', alt: 'Infraestrutura' },
-  { src: '/images/obra-01.jpg', alt: 'Painéis Solares' },
+  { src: '/images/obra-01.jpg', alt: 'Obras de Engenharia' },
   { src: '/images/obra-02.jpg', alt: 'Galpão MRO Logistics' },
-  { src: '/images/obra-07.jpg', alt: 'Obras de Engenharia' },
+  { src: '/images/obra-03.jpg', alt: 'Edificações' },
+  { src: '/images/obra-05.jpg', alt: 'Infraestrutura' },
+  { src: '/images/obra-07.jpg', alt: 'Projetos e Construções' },
 ]
 
 const slideVariants = {

@@ -15,8 +15,8 @@ import {
 
 // Mapeamento de imagens para cada serviço
 const serviceImages: Record<string, string> = {
-  edificacoes: '/images/edificacoes.jpg',
-  infraestrutura: '/images/infraestrutura.jpg',
+  edificacoes: '/images/obra-03.jpg',
+  infraestrutura: '/images/obra-05.jpg',
   locacao: '/images/obra-04.jpg',
   instalacoes: '/images/instalacoes-eletricas.png',
   estruturas: '/images/estruturas-metalicas.jpg',
@@ -152,7 +152,7 @@ export function AnimatedServicos() {
                         <HoverScale scale={1.03}>
                           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl group">
                             <Image
-                              src={serviceImages[service.id] || '/images/image-05.png'}
+                              src={serviceImages[service.id] || '/images/obra-01.jpg'}
                               alt={service.title}
                               fill
                               className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -198,7 +198,7 @@ export function AnimatedServicos() {
                         <HoverScale scale={1.03}>
                           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl group">
                             <Image
-                              src={serviceImages[service.id] || '/images/image-05.png'}
+                              src={serviceImages[service.id] || '/images/obra-01.jpg'}
                               alt={service.title}
                               fill
                               className="object-cover transition-transform duration-500 group-hover:scale-110"

@@ -10,7 +10,7 @@ export function Hero() {
     <section className="relative bg-gradient-to-br from-primary to-primary-dark pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <Image
-          src="/images/edificacoes.jpg"
+          src="/images/obra-03.jpg"
           alt="Engenharia Civil"
           fill
           className="object-cover"
@@ -40,7 +40,7 @@ export function Hero() {
           <div className="hidden md:block">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/infraestrutura.jpg"
+                src="/images/obra-05.jpg"
                 alt="SUNORD Engenharia"
                 width={600}
                 height={400}

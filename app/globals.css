@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-gray-800 antialiased;
+}
+
+/* Gradient text utility - cinza escuro + laranja */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-teal;
+}
+
+.gradient-text-light {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary via-teal-light to-mint;
+}
+
+/* Vibrant section backgrounds - tons quentes */
+.section-gradient {
+  background: linear-gradient(135deg, #f0f1f1 0%, #fef3eb 50%, #fde7d7 100%);
+}
+
+.section-gradient-alt {
+  background: linear-gradient(135deg, #fef3eb 0%, #fff8f3 50%, #fde7d7 100%);
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-300;
+}
+
+.card-hover:hover {
+  @apply shadow-xl -translate-y-1;
+  box-shadow: 0 20px 40px -10px rgba(45, 52, 54, 0.2);
+}
+
+/* Colorful underline animation */
+.underline-gradient {
+  position: relative;
+}
+
+.underline-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #e8782a, #f0944e, #d4a053);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.underline-gradient:hover::after {
+  width: 100%;
+}
+
+/* Vibrant button styles */
+.btn-primary {
+  @apply bg-gradient-to-r from-primary to-primary-light text-white font-semibold px-6 py-3 rounded-full;
+  @apply hover:from-primary-dark hover:to-primary transition-all duration-300;
+  @apply shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply bg-gradient-to-r from-secondary to-teal text-white font-semibold px-6 py-3 rounded-full;
+  @apply hover:from-secondary-dark hover:to-teal-dark transition-all duration-300;
+  @apply shadow-lg hover:shadow-xl hover:-translate-y-0.5;
+}
+
+/* Colorful badges */
+.badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.badge-primary {
+  @apply bg-primary-100 text-primary-700;
+}
+
+.badge-secondary {
+  @apply bg-secondary-100 text-secondary-600;
+}
+
+/* Animated gradient border */
+.gradient-border {
+  position: relative;
+  background: white;
+  border-radius: 1rem;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #2d3436, #e8782a, #f0944e, #d4a053);
+  border-radius: inherit;
+  z-index: -1;
+  background-size: 300% 300%;
+  animation: gradient-rotate 4s ease infinite;
+}
+
+@keyframes gradient-rotate {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 30px rgba(45, 52, 54, 0.3);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 30px rgba(232, 120, 42, 0.3);
+}
+
+/* Icon containers with color */
+.icon-container {
+  @apply flex items-center justify-center rounded-xl;
+}
+
+.icon-container-primary {
+  @apply bg-gradient-to-br from-primary-100 to-teal-light/20 text-primary;
+}
+
+.icon-container-secondary {
+  @apply bg-gradient-to-br from-secondary-100 to-cyan-light/20 text-secondary;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2d3436, #444b4d);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1a1d1e, #2d3436);
+}

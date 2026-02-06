@@ -19,7 +19,7 @@ const serviceImages: Record<string, string> = {
   locacao: '/images/obra-04.jpg',
   instalacoes: '/images/instalacoes-eletricas.png',
   estruturas: '/images/estruturas-metalicas.jpg',
-  manutencao: '/images/edificacoes-thumb.jpg',
+  manutencao: '/images/obra-08.jpg',
 }
 
 // Cores alternadas para os serviços
@@ -151,7 +151,7 @@ export function AnimatedServicos() {
                         <HoverScale scale={1.03}>
                           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl group">
                             <Image
-                              src={serviceImages[service.id] || '/images/obra-01.jpg'}
+                              src={serviceImages[service.id] || '/images/obra-02.jpg'}
                               alt={service.title}
                               fill
                               className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -197,7 +197,7 @@ export function AnimatedServicos() {
                         <HoverScale scale={1.03}>
                           <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl group">
                             <Image
-                              src={serviceImages[service.id] || '/images/obra-01.jpg'}
+                              src={serviceImages[service.id] || '/images/obra-02.jpg'}
                               alt={service.title}
                               fill
                               className="object-cover transition-transform duration-500 group-hover:scale-110"

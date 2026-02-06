@@ -24,7 +24,7 @@ const teamWithImages = [
       'Gestão de Projetos',
       'Sustentabilidade na Construção',
     ],
-    image: '/images/obra-01.jpg',
+    image: '/images/obra-03.jpg',
     color: 'from-primary to-teal',
   },
   {

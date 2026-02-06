@@ -9,7 +9,6 @@ const carouselImages = [
   { src: '/images/foto1.png', alt: 'SUNORD Engenharia' },
   { src: '/images/foto2.png', alt: 'Projetos e Construções' },
   { src: '/images/foto3.png', alt: 'Engenharia Civil' },
-  { src: '/images/obra-01.jpg', alt: 'Obras de Engenharia' },
   { src: '/images/obra-02.jpg', alt: 'Galpão MRO Logistics' },
   { src: '/images/obra-05.jpg', alt: 'Infraestrutura' },
   { src: '/images/obra-07.jpg', alt: 'Projetos e Construções' },

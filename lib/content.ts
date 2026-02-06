@@ -28,7 +28,7 @@ export const heroContent = {
 }
 
 export const aboutContent = {
-  quemSomos: 'A SUNORD Engenharia desenvolve projetos e construções com o uso das mais avançadas tecnologias, garantindo sempre a racionalização dos custos, alta qualidade de materiais e serviços empregados, sempre cumprindo prazos e integrando em seus empreendimentos a sustentabilidade e a inovação como diferenciais. Somos uma empresa sustentável e temos a consciência da importância de investir no processo social, levando qualidade de vida a todos os brasileiros. Atuamos nas áreas de energia solar, saneamento, construções, projetos de arquitetura, pavimentação, locação de maquinas, instalações elétricas e hidrosanitárias, manutenção predial, drenagem e estruturas metálicas.',
+  quemSomos: 'A SUNORD Engenharia desenvolve projetos e construções com o uso das mais avançadas tecnologias, garantindo sempre a racionalização dos custos, alta qualidade de materiais e serviços empregados, sempre cumprindo prazos e integrando em seus empreendimentos a sustentabilidade e a inovação como diferenciais. Somos uma empresa sustentável e temos a consciência da importância de investir no processo social, levando qualidade de vida a todos os brasileiros. Atuamos nas áreas de saneamento, construções, projetos de arquitetura, pavimentação, locação de maquinas, instalações elétricas e hidrosanitárias, manutenção predial, drenagem e estruturas metálicas.',
   missao: 'Desenvolver e implementar soluções integradas de engenharia e execução de obras com agilidade, qualidade, sustentabilidade e preços competitivos.',
   visao: 'Ser uma empresa inovadora e rentável, destacando-se como uma marca sustentável, de qualidade e credibilidade.',
 }
@@ -43,14 +43,7 @@ export const valores = [
 ]
 
 export const services = [
-  {
-    id: 'edificacoes',
-    title: 'Edificações',
-    shortDescription: 'Construção, Instalações Elétricas e Hidráulicas, Manutenção Predial e Estruturas Metálicas.',
-    fullDescription: 'Realizamos os serviços de construção desde a fundação ao acabamento da sua obra, responsabilizando-se por todos os projetos, execução, acompanhamento e responsabilidades técnicas inerentes aos serviços.',
-    icon: 'building',
-  },
-  {
+{
     id: 'infraestrutura',
     title: 'Infraestrutura',
     shortDescription: 'Serviços de Saneamento, Pavimentação e Drenagem.',
@@ -88,12 +81,7 @@ export const services = [
 ]
 
 export const obras = [
-  {
-    title: 'LOC SERVICE | ARACATI – CE',
-    description: 'INSTALAÇÃO DE PAINÉIS SOLARES',
-    image: '/images/obra-01.jpg',
-  },
-  {
+{
     title: 'GALPÃO | MRO LOGISTICS',
     description: 'LIMPEZA DO TERRENO, TERRAPLENAGEM E PAVIMENTAÇÃO',
     image: '/images/obra-02.jpg',

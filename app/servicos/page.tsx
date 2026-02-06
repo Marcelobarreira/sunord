@@ -4,7 +4,7 @@ import { AnimatedServicos } from '@/components/AnimatedServicos'
 
 export const metadata: Metadata = {
   title: 'Serviços de Engenharia Civil - SUNORD Engenharia',
-  description: 'Edificações, infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
+  description: 'Infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
 }
 
 export default function ServicosPage() {

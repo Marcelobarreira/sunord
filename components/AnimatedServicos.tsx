@@ -15,7 +15,6 @@ import {
 
 // Mapeamento de imagens para cada serviço
 const serviceImages: Record<string, string> = {
-  edificacoes: '/images/obra-03.jpg',
   infraestrutura: '/images/obra-05.jpg',
   locacao: '/images/obra-04.jpg',
   instalacoes: '/images/instalacoes-eletricas.png',

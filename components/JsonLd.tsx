@@ -7,7 +7,7 @@ export function JsonLd() {
     '@type': 'Organization',
     name: siteConfig.name,
     url: siteConfig.url,
-    description: 'Engenharia e construção civil em Fortaleza-CE. Edificações, infraestrutura e locação de máquinas.',
+    description: 'Engenharia e construção civil em Fortaleza-CE. Infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: siteConfig.phone,
@@ -24,7 +24,7 @@ export function JsonLd() {
     telephone: siteConfig.phone,
     email: siteConfig.email,
     priceRange: '$$',
-    description: 'Engenharia e construção civil. Edificações, infraestrutura, instalações e estruturas metálicas.',
+    description: 'Engenharia e construção civil. Infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Rua Soriano Albuquerque, 380, Sala I',

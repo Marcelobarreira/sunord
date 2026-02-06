@@ -31,7 +31,7 @@ const teamWithImages = [
     name: 'Equipe Técnica',
     role: 'Engenharia e Projetos',
     credentials: [
-      'Edificações e Infraestrutura',
+      'Infraestrutura',
       'Instalações Elétricas e Hidráulicas',
       'Estruturas Metálicas',
     ],

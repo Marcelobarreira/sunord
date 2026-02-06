@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     default: `${siteConfig.name} - Projetos e Construções com Tecnologia e Sustentabilidade`,
     template: `%s | ${siteConfig.name}`,
   },
-  description: 'Engenharia e construção civil em Fortaleza. Edificações, infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
-  keywords: ['engenharia civil fortaleza', 'construção civil ceará', 'infraestrutura fortaleza', 'edificações fortaleza', 'SUNORD engenharia'],
+  description: 'Engenharia e construção civil em Fortaleza. Infraestrutura, instalações elétricas e hidráulicas, estruturas metálicas e locação de máquinas.',
+  keywords: ['engenharia civil fortaleza', 'construção civil ceará', 'infraestrutura fortaleza', 'SUNORD engenharia'],
   authors: [{ name: siteConfig.name }],
   icons: {
     icon: '/images/favicon.ico',
